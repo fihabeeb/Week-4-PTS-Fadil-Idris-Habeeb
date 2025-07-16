@@ -1,0 +1,24 @@
+#### File to run: "weekFour.java"
+
+# Deliverable: 
+Create a program that displays days of the week using an enum to capture the days.
+Use a super and subclass in your program. (Week 4, Backend Beginner)
+
+# Concepts:
+Enum: Enums (short for enumerations) represent a set of fixed constants (values that don't change)
+Superclass: Is a parent class that provides its properties and methods to its subclasses
+Subclass: A child class that inherits the properties and methods of its superclass
+
+# Code explanation:
+
+"Day.java" holds the enum for the days of the week.
+The enum holds both the day of the week and a variable called "Information Index" that determines
+the information of that day
+
+The "weekFour.java" holds the rest of the code.
+It holds the superclass "Week" and its subclass "DayInformation".
+
+The "Week" class contains code that translates the "Information Index" from the enum into
+the appropriate string.
+
+The "DayInformation" is the class that is instantiated and prints out the days of the week.
